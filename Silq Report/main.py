@@ -6,8 +6,8 @@ import plotly.express as px
 
 st.set_page_config(page_title="User-Based Analysis", layout="wide")
 
-DATA_URL = '/home/antash/silq/Silq Report/signupCount.csv'
-RETAINED_DATA_URL = '/home/antash/silq/Silq Report/RetainedCount.csv'
+DATA_URL = 'signupCount.csv'
+RETAINED_DATA_URL = 'RetainedCount.csv'
 
 line1_spacer1, line1_1, line1_spacer2 = st.columns((0.1, 3.0, 1.0))
 
@@ -86,9 +86,6 @@ with row3_1:
     """
     )
     
-    
-    
-#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
 
 with row3_2:
     st.subheader('Retention Rate By Sign-Up Cohort')
